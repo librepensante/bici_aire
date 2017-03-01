@@ -20,7 +20,7 @@ TFT_ILI9163C display = TFT_ILI9163C(__CS, __DC, __RST);
 void setup(void) {
   display.begin();
     pinMode(6, OUTPUT);
-     analogWrite(6,180);
+     analogWrite(6,163);
     
 }
 int data;
